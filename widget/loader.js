@@ -1,0 +1,2 @@
+(function(){function async_load(){var url='//valuta.kg/widget/';var style=document.createElement('link');style.rel='stylesheet';style.type='text/css';style.href=url+'style.css?v='+new Date().getTime();document.head.appendChild(style);var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=url+'widget.js?v='+new Date().getTime();document.body.appendChild(s);}
+if(window.attachEvent){window.attachEvent('onload',async_load);}else{window.addEventListener('load',async_load,false);}})();
